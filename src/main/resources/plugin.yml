@@ -1,0 +1,13 @@
+name: LetterPlugin
+version: '${project.version}'
+main: kbtdx.letterplugin.LetterPlugin
+api-version: 1.17
+author: kabutokunnDX
+commands:
+  letter:
+
+permissions:
+  letter.use:
+    default: true
+  letter.op:
+    default: op
