@@ -59,7 +59,7 @@ public final class LetterPlugin extends JavaPlugin implements CommandExecutor {
                         lore.add("§e" + args[i]);
                     }
                     lore.add("§2========================");
-                    lore.add("§eby" + sender.getName());
+                    lore.add("§eby " + sender.getName());
                     lettermeta.setDisplayName("§e§lLetter");
                     lettermeta.setLore(lore);
                     lettermeta.setCustomModelData(con.getInt("letter.CustomModelData"));
